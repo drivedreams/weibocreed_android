@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright 2011 Sina.
+ *
+ * Licensed under the Apache License and Weibo License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.open.weibo.com
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/optionbody_bg"
+	    android:theme="@android:style/Theme.NoTitleBar"
+	    >
+	        <ImageView  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_gravity="right"
+        android:layout_marginTop="8px"
+        android:scaleType="center"  
+        android:src="@drawable/toptopic"  
+    />
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	     android:gravity="center"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+	  
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	     android:gravity="center"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    >
+		    <Button
+			android:id="@+id/creed_View_Showbt"
+			android:layout_width="200px"
+			android:layout_height="wrap_content"
+			android:text="显 示 信 条"
+			/>
+			<Button
+			android:id="@+id/creed_View_Hidebt"
+			android:layout_width="200px"
+			android:layout_marginTop="20px"
+			android:layout_height="wrap_content"
+			android:text="隐 藏 信 条"
+			/>
+		    <Button
+			android:id="@+id/optiond_bt"
+			android:layout_width="200px"
+			android:layout_marginTop="20px"
+			android:layout_height="wrap_content"
+			android:text="选 项 设 置"
+			/>
+		    <Button
+			android:id="@+id/aboutbt"
+			android:layout_width="200px"
+			android:layout_marginTop="20px"
+			android:layout_height="wrap_content"
+			android:text="关 于 信 条"
+			/>
+			<Button 
+			android:id="@+id/offbt"
+			android:layout_width="200px"
+			android:layout_marginTop="20px"
+			android:layout_height="wrap_content"
+			android:text="注 销 登陆"
+			/>
+	</LinearLayout>		
+	</LinearLayout>
+	</LinearLayout>
+	

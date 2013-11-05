@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/optionbody_bg"
+	    android:theme="@android:style/Theme.NoTitleBar"
+	    >
+	        <ImageView  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_gravity="right"
+        android:layout_marginTop="8px"
+        android:scaleType="center"  
+        android:src="@drawable/toptopic"  
+    />
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	     android:gravity="center"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+	  
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	     android:gravity="center"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    >
+		    <Button
+			android:id="@+id/updatetime"
+			android:layout_width="250px"
+			android:layout_height="wrap_content"
+			android:text="微博信条更新频率"
+			/>
+			  <Button
+			android:id="@+id/view_content"
+			android:layout_width="250px"
+			android:layout_height="wrap_content"
+			android:text="滚动显示的内容"
+			/>
+	</LinearLayout>		
+	</LinearLayout>
+	</LinearLayout>
